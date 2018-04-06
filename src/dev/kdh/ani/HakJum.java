@@ -12,16 +12,18 @@ public class HakJum {
         		
         if(Jumsu >=90){
            HakJum = 'A';
-        }else if(Jumsu >=80){
-        	    HakJum ='B';
-        }else if(Jumsu >=70){
-        	    HakJum = 'C';
-        }else if(Jumsu >=60){
-        	    HakJum = 'D';
-        }else{
-        	HakJum = 'F';
-        }
            
+        }else if(Jumsu >=80){
+    	    HakJum ='B';
+    }else if(Jumsu >=70){
+    	    HakJum = 'C';
+    }else if(Jumsu >=60){
+    	    HakJum = 'D';
+    }else{
+    	HakJum = 'F';
+    }
+       
+        
     System.out.println("취득한 학점은 "+ HakJum +"입니다." );
 	}
-}
+	}
